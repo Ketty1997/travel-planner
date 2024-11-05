@@ -1,24 +1,25 @@
-# Meteo
+# Travel planner
 
-Questo progetto è una piccola web app che offre previsioni meteorologiche basate sulla posizione dell’utente grazie alla geolocalizzazione. Utilizzando API meteo, mostra il tempo attuale e, tramite un sistema di intelligenza artificiale, genera un’immagine unica che rappresenta visivamente l’atmosfera della località rilevata.
+Questo progetto è una piccola web app che genera itinerati con l'intelligenza artificiale in base alla meta, al tipo di viaggio che inserisci quindi: relax, divertimento ecc, e ai giorni.
 
 ## Descrizione
 
 Questo progetto è stato realizzato con HTML, CSS, JavaScript, API
 
 
-![Home front del progetto](preview/iniziale.png)
-![Home front dettaglio](preview/loading.png)
-
-
+![Home front del progetto](preview/builderLosAngeles.png)
+![risultati](preview/resultLosAngeles.png)
+![esempio1](preview/buildingIndia.png)
+![risultati india](preview/resultIndia1.png)
+![risultati india](preview/resultIndia2.png)
+![loader](preview/loader.png)
 
 
 ## Funzionalità
 
 La web app include le seguenti funzionalità:
 
-- generazione immagine con l'intelligenza artificiale
-- geolocalizzazione
+- generazione itinerari in base al pulsante cliccato
 - loader
 
 
