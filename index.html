@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CW 2024 - Travel Planner</title>
+
+    <!-- Icon -->
+    <link rel="icon" href="img/icon.png" type="image/png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/icon.png" alt="icon">
+            <h1>AI TRAVEL PLANNER</h1>
+        </header>
+
+        <main class="loading">
+            <div class="building-screen">
+
+                <div class="field">
+                    <label>Dove vuoi andare?</label>
+                    <input type="text" value="los angeles" id="destination">
+                </div>
+
+                <div class="field">
+                    <label>Tipo di viaggio</label>
+                    <div class="type-selection">
+                        <button class="selected">
+                            <span class="type-icon">🧘</span>
+                            <span class="type-name">Relax</span>
+                        </button>
+                        <button>
+                            <span class="type-icon">🎉</span>
+                            <span class="type-name">Divertimento</span>
+                        </button>
+                        <button>
+                            <span class="type-icon">🏛️</span>
+                            <span class="type-name">Cultura</span>
+                        </button>
+                        <button>
+                            <span class="type-icon">🍕</span>
+                            <span class="type-name">Gastronomia</span>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <label>Quanti giorni?</label>
+                    <div class="days-selection">
+                        <button id="decrement">
+                            <img src="img/minus.png" alt="decrement days">
+                        </button>
+                        <div class="days-counter">1</div>
+                        <button id="increment">
+                            <img src="img/plus.png" alt="Increment days">
+                        </button>
+                    </div>
+                </div>
+
+                <button id="generate">GENERA</button>
+            </div>
+
+
+            <div class="loading-screen">
+                <img src="img/loader.gif" alt="loader">
+            </div>
+
+
+            <div class="result-screen">
+                <div class="itinerary"></div>
+                <button id="new-trip">NUOVO VIAGGIO</button>
+            </div>
+        </main>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

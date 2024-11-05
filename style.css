@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #c2f0d1;
+    color: #0c5335;
+}
+
+header {
+    background-color: #ebfaf0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+}
+
+header h1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0c5335;
+    width: 100%;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #09d284;
+}
+
+input:focus {
+    color: #0c5335;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/*navigazione*/
+main>* {
+    display: none;
+}
+
+main.building .building-screen {
+    display: block;
+}
+
+main.loading .loading-screen {
+    display: block;
+}
+
+main.result .result-screen {
+    display: block;
+}
+
+/*Altri stili*/
+.field {
+    margin-bottom: 32px;
+}
+
+.type-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.type-selection button {
+    border: 2px solid #0c5335;
+    font-size: 18px;
+    font-weight: 400;
+    width: -webkit-calc(50% - 4px);
+    width: calc(50% - 4px);
+    display: flex;
+    align-items: center;
+}
+
+.type-selection .selected {
+    background-color: #0c5335;
+    color: #ffffff;
+}
+
+.type-selection .tyoe-icon {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.days-selection {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.days-selection button {
+    height: 48px;
+    background-color: #7cf037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.days-selection button:active {
+    background-color: #09d284;
+}
+
+
+.days-selection img {
+    height: 40px;
+    width: 40px;
+}
+
+.days-selection .days-counter {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+#generate,
+#new-trip {
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #09d284;
+    width: 100%;
+    color: #0c5335;
+}
+
+#new-trip {
+    margin-top: 16px;
+}
+
+.loading-screen img {
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    display: block;
+}
+
+.day-card {
+    background-color: #ebfaf0;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.day-card h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.day-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.day-card .activity {
+    margin-top: 8px;
+}
